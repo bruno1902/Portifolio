@@ -1,0 +1,160 @@
+#title-parade{
+    display: inline-block;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: var(--font-title); 
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.title-underline{
+    border-bottom: 4px solid var(--color-underline);
+}
+
+.description-parade{
+    display: block;
+    width: 230px;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: 30px;
+}
+
+.subdescription-parade{
+    display: inline-block;
+    font-family: var(--font-family);
+    font-size: var(--font-size-small);
+    margin-top: 5px;
+}
+
+.photo-1{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -150px;
+    border: 15px solid var(--color-underline);
+    overflow: hidden;
+    height: 400px;
+}
+
+.photo-2{
+    z-index: -1;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -180px;
+    height: 600px;
+}
+
+.wrapper-guest{
+    position: relative;
+    display: inline-block;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+}
+
+#description-guest{
+    font-size: var(--font-title); 
+    margin-top: 500px;  
+    font-weight: bold;  
+}
+
+.guest-underline{
+    border-bottom: 4px solid var(--color-underline);
+}
+
+.subdescription-guest{
+    font-size: 30px;
+    margin-left: 360px;
+    margin-top: -20px;
+}
+
+.guest-wrapper{
+    position: relative;
+    right:150px;
+    top: -70px;
+}
+
+.name-Arlindo{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: right;
+    position: relative;
+    right: 650px;
+    top: 40px;
+}
+
+.photo-Arlindo{
+    margin-top: 80px;
+}
+
+.arlindo-date{
+    background-color: #ffffff;
+    padding-left: 15px;
+    font-weight: normal;
+}
+
+.arlindo-captation{
+    margin-top: 10px;
+    width: 435px;
+    font-size: 18px;
+    letter-spacing: var(--letter-spacing);
+}
+
+.name-Dudu{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: right;
+    position: relative;
+    right: 198px;
+    top: 40px;
+}
+
+.photo-Dudu{
+    margin-top: -770px;
+    margin-left: 450px;
+}
+
+.dudu-date{
+    background-color: #ffffff;
+    padding-left: 15px;
+    font-weight: normal;
+}
+
+.dudu-captation{
+    letter-spacing: var(--letter-spacing);
+    margin-top: 10px;
+    width: 435px;
+    font-size: 18px;
+}
+
+.name-Monica{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: right;
+    position: relative;
+    left: 170px;
+    top:40px;
+}
+
+.photo-Monica{
+    margin-top: -800px;
+    margin-left: 900px;
+}
+
+.Monica-date{
+    background-color: #ffffff;
+    padding-left: 15px;
+    font-weight: normal;
+}
+
+.monica-captation{
+    letter-spacing: var(--letter-spacing);
+    margin-top: 10px;
+    width: 360px;
+    font-size: 18px;
+}

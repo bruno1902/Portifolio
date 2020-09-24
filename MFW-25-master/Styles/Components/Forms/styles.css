@@ -1,0 +1,183 @@
+.bgc-forms{
+    background-color: var(--color-underline);
+    padding-bottom: 20px;
+}
+
+.register{
+    font-family: var(--font-family);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: var(--font-title);
+    margin-bottom: 15px;
+}
+
+.form-name{
+    position: relative;
+    display: inline-block;
+    background-color: var(--color-underline);
+    border: 1px solid black;
+    padding: 5px;
+    width: 45%;
+    margin-left: 15px;
+}
+
+.form-social{
+    position: relative;
+    display: inline-block;
+    background-color: var(--color-underline);
+    border: 1px solid black;
+    padding: 5px;
+    width: 45%;
+    margin-left: 10px;
+}
+
+.form-tel{
+    position: relative;
+    display: inline-block;
+    background-color: var(--color-underline);
+    border: 1px solid black;
+    padding: 5px;
+    width:15%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.form-cnpj{
+    position: relative;
+    display: inline-block;
+    background-color: var(--color-underline);
+    border: 1px solid black;
+    padding: 5px;
+    width:28%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.form-name-f{
+    position: relative;
+    display: inline-block;
+    background-color: var(--color-underline);
+    border: 1px solid black;
+    padding: 5px;
+    width:45%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.form-email{
+    position: relative;
+    display: inline-block;
+    background-color: var(--color-underline);
+    border: 1px solid black;
+    padding: 5px;
+    width:45%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.form-instagram{
+    position: relative;
+    display: inline-block;
+    background-color: var(--color-underline);
+    border: 1px solid black;
+    padding: 5px;
+    width:20%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.form-facebook{
+    position: relative;
+    display: inline-block;
+    background-color: var(--color-underline);
+    border: 1px solid black;
+    padding: 5px;
+    width:23%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.form-address{
+    position: relative;
+    display: inline-block;
+    background-color: var(--color-underline);
+    border: 1px solid black;
+    padding: 5px;
+    width:20%;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+.form-city{
+    position: relative;
+    display: inline-block;
+    background-color: var(--color-underline);
+    border: 1px solid black;
+    padding: 5px;
+    width:15%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.form-CEP{
+    position: relative;
+    display: inline-block;
+    background-color: var(--color-underline);
+    border: 1px solid black;
+    padding: 5px;
+    width:6%;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.form-site{
+    position: relative;
+    display: inline-block;
+    background-color: var(--color-underline);
+    border: 1px solid black;
+    padding: 5px;
+    width:45%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.dates{
+    margin-left: -80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-text{
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.form-checkboxes{
+    display: inline-block;
+}
+
+.form-submit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 8px 60px;
+    background-color: #000000;
+    border: 1px solid black;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition-duration: 0.6s;
+    -webkit-transition-duration: 0.6s;
+}
+
+.form-submit:hover{
+    background-color: rgba(255, 255, 255, 0.055);
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+#description-about{
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: var(--font-title); 
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.about-underline{
+    border-bottom: 4px solid #18c5db;
+}
+
+.description-about-list{
+    text-align: center;
+    color: var(--font-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size-small);
+}
+
+hr{
+    display: inline-block;
+    border-color: var(--color-light-gray);
+    width: 200%;
+}
+
+.score-text{
+    display: inline-block;
+    font-size: var(--font-size-small);
+    font-weight: bold;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+}
+.score{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.score-time{
+    display: inline-block;
+    margin-left: 250px;
+    margin-right: 250px;
+}

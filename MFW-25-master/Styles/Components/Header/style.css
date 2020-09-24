@@ -1,0 +1,121 @@
+.background{
+    background-image: url("/Images/agua.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.container-page{
+    
+    width: 58%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.header-nav{
+    display: inline-block;
+    position: absolute;
+    margin-top: 30px;
+    
+}
+
+.header-item{
+    margin-left: 50px;
+    font-size: var(--font-size-small);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-sizing: content-box
+}
+
+.header-item:hover{
+    border-bottom: 3px solid black;
+    transition-duration: 0.1s;
+}
+
+.-button{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    transition-duration: 0.6s;
+    -webkit-transition-duration: 0.6s;
+}
+
+.-button:hover{
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.055);
+    color: black;
+    cursor: pointer;
+}
+
+
+.header-content{
+    padding-top: 400px;
+    padding-bottom:100px;
+}
+
+.header-text-1{
+    position: relative;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+.header-text-rotate-1{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 80px;
+    transform-origin:bottom left;
+    transform: rotate(-90deg);
+    margin-left: 90px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.header-text-description{
+    position: relative;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: var(--font-size-small);
+    float: left;
+    margin-top: -285px;
+    margin-left: 420px;
+}
+
+.header-date{
+    position: absolute;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: -120px;
+    margin-left:-90px;
+}
+
+.rotate{
+    display: inline-block;
+    transform-origin:bottom left;
+    transform: rotate(-90deg);
+    margin-left: 50px;
+}

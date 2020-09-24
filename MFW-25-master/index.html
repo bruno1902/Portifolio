@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+     <!-------------------------- STYLES ---------------------------------------------->
+    <link rel="stylesheet" href="./Styles/Generic/reset.css"/>
+    <link rel="stylesheet" href="./Styles/Base/styles.css">
+
+    <link rel="stylesheet" href="./Styles/Components/Header/style.css">
+    <link rel="stylesheet" href="./Styles/Components/Description/styles.css">
+    <link rel="stylesheet" href="./Styles/Components/Parade/styles.css">
+    <link rel="stylesheet" href="./Styles/Components/Car_Giveaway/styles.css">
+    <link rel="stylesheet" href="./Styles/Components/Lineup/styles.css">
+    <link rel="stylesheet" href="./Styles/Components/Forms/styles.css">
+     <!-------------------------- JS ---------------------------------------------->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jquery.countdown.js"></script>
+
+
+    <title>Teste Totvs</title>
+</head>
+<body>
+    <header class="background">
+        <section class="container-page">
+            <picture>
+                <img class="logo" src="./Images/logo.png" alt="logo">
+            </picture>
+            <nav class="header-nav">
+                <a class="header-item" href="#description-about">Sobre</a>
+                <a class="header-item" href="#title-parade">Desfile</a>
+                <a class="header-item" href="#description-guest">Convidados</a>
+                <a class="header-item" href="#car-giveaway-title">Sorteio de carros</a>
+                <a class="header-item" href="#lineup-title">Lineup</a>
+                <button class="header-item -button" type="submit">Cadastre-se</button>
+            </nav>  
+            <section class="header-content">
+                <p class="header-text-1">mega fashion week____</p>
+                <p class="header-text-rotate-1">MFW <span class="underline">25</span></p>
+                <p class="header-text-description">O futuro<br> e a moda<br> estão aqui</p>
+                <p class="header-date">save the date<br><span>05,06 e 07/AGO</span></p>
+            </section>
+        </section>
+    </header>
+
+    <section class="container-page">
+            <dt id="description-about">So<span class="about-underline">bre</span></dt>
+            <dl class="description-about-list">As maiores tendências da primavera-verão 2019 chegam primeiro ao Mega Fashion Week 25.Cada <br>
+            visitante vai viver momentos únicos,com lançamentos das maiores marcas de moda para atacado,<br>
+        celebridades convidadas, sorteio de um carro zero e cupom em dobro no domingo.</dl><br><br>
+            <hr>
+            <div class="score">
+                <p class="score-text">Faltam<br> apenas</p>
+                <p id="score-time">0</p>
+                <p class="score-text">Faltam<br> apenas</p>
+            </div>
+            <hr>
+    </section>
+
+    <section class="container-page">
+        <dl>
+            <dt id="title-parade">Des<span class="title-underline">file</span></dt>
+            <dd class="description-parade">As marcas do<br>mega polo moda</dd>
+            <dd class="subdescription-parade">vão exibir suas coleções em desfiles<br>imperdíveis.Confira as marcas<br>participantes.</dd>
+        </dl>
+        <figure class="overflow-figure">
+            <img class="photo-1" src="./Images/Foto1.png" alt="Modelo desfilando">
+        </figure>
+
+        <figure class="overflow-figure">
+                <img class="photo-2" src="./Images/Foto2.png" alt="Modelo desfilando">
+        </figure>
+
+        <div>
+            <dl class="wrapper-guest">
+                    <dt id="description-guest">Convida<span class="guest-underline">dos</span></dt>
+                    <dd class="subdescription-guest">Que comentarão os desfiles</dd>
+            </dl>
+        </div>
+
+        <section class="guest-wrapper">
+        <div class="photo-Arlindo">
+        <p class="name-Arlindo">Arlindo<br>Grund<br><span class="arlindo-date">05/08</span></p>
+        <figure>
+            <img src="./Images/arlindo.png" alt="Foto do apresentador Arlindo Grund">
+            <figcaption class="arlindo-captation">É apresentador dos programas Esquadrão da Moda, do SBT, e A Roupa Ideal, da Sony. Atua tambem como stylist e consultor de moda e tem dois livros publicados sobre os temas.</figcaption>
+        </figure>
+        </div>
+
+        <div class="photo-Dudu">
+            <p class="name-Dudu">Dudu<br>Bertholini<br><span class="dudu-date">06/08</span></p>
+                <figure>
+                    <img src="./Images/dudu.png" alt="Foto do estilista Dudu Bertholini">
+                    <figcaption class="dudu-captation">Estilista renomado,já produziu inúmeros editoriais de moda para revistas Vogue Brasil,Elle Brasil e I-D.Participou dos programas Brazil´s NExt Top Model e Amor e Sexo.</figcaption>
+                </figure>
+        </div>
+
+        
+        <div class="photo-Monica">
+            <p class="name-Monica">Mônica<br>Salgado<br><span class="dudu-date">07/08</span></p>
+                <figure>
+                    <img src="./Images/monica.png" alt="Foto da ex diretora da revista Glamour, Mônica Salgado">
+                    <figcaption class="monica-captation">Ex-diretora de redação da revista Glamour Brasil, apresentadora do Video Show da Globo e digital influencer, é considerada como uma grande voz do empoderamento feminino.</figcaption>
+                </figure>
+        </div>
+        </section>
+    </section>
+    
+    <section class="car-giveaway-wrapper">
+        <div class="container-page">
+            <dl>
+                <dt id="car-giveaway-title">
+                    Sor<span class="car-underline">teio</span> <span class="title-2">de carro</span>
+                </dt>
+                <dt class="car-giveaway-subtitle">
+                    Concorra a um <br><strong class="car">Fiat Argo</strong><br>de 05 a 10/AGO
+                </dt>
+                <dd class="car-giveaway-description">
+                    A cada R$ 3000 em compras durante o Mega Fashion Week 25, você leva um cupom exclusivo para concorrer ao sorteio do Fiat Argo.
+                </dd>
+                <figure class="fiat-argo">
+                    <img src="./Images/carro.png" alt="Fiat Argo">
+                </figure>
+            </dl>
+
+            <div class="coupon">
+                <p class="coupon-description">A cada</p>
+                <p><span class="coupon-value">R$ 3mil</span> <span class="equal"> = </span> <span class="coupon-unit">1 Cupom</span></p>
+                <p class="coupon-2">Em compras</p>
+            </div>    
+            <div class="date">
+                <p><span class="coupon-date">Cupom</span> em <span class="coupon-double">Dobro </span><span class="date-sunday">Aos domingos</span></p>
+            </div>
+        </div>
+    </section>
+    <section class="container-page">
+        <div id="lineup-title">Line<span class="lineup-underline">up</span></div>
+
+        <div>
+            <ul class="lineup-wrapper">
+                <li class="list-1"><span class="list-strong">06H AS 10H</span><br>Café da manhã<br>para clientes</li>
+                <li class="list-2"><span class="list-strong">08H</span><br>Lojas abertas<br>para compras</li>
+                <li class="list-3"><span class="list-strong">10H</span><br>Desfile<br>Comentado</li>
+                <li class="list-4"><span class="list-strong">15h</span><br>Desfile<br>Comentado</li>
+                <li class="list-5"><span class="list-strong">18H</span><br>Lojas<br>fechados</li>
+            </ul>
+        </div>
+    </section>
+    <section class="bgc-forms">
+        <div class="container-page">
+            <p class="register">Cadastre-se</p>
+            <form action="#" class="forms">
+                <input class="form-name" type="text" placeholder="nome" required>
+                <input class="form-social" type="text" placeholder="razão social" required>
+                <input class="form-tel" type="tel" placeholder="telefone" required>
+                <input class="form-cnpj" type="text" placeholder="CNPJ" required>
+                <input class="form-name-f" type="text" placeholder="nome fantasia" required>
+                <input class="form-email" type="email" placeholder="email" required>
+                <input class="form-instagram" type="text" placeholder="@instagram da loja" required>
+                <input class="form-facebook" type="text" placeholder="@facebook da loja" required>
+                <input class="form-address" type="text" placeholder="endereço" required>
+                <input class="form-city" type="text" placeholder="cidade" required>
+                <input class="form-CEP" type="text" placeholder="CEP" required>
+                <input class="form-site" type="text" placeholder="site da loja" required>
+            
+
+            <div class="dates">
+                <p class="form-text">Em quais dias você pretende ir ao MFW25?</p>
+                <form action="#" class="form-checkboxes">
+                    <input id="check" type="checkbox">06/08
+                    <input id="check" type="checkbox">07/08
+                    <input id="check" type="checkbox">08/08
+                    <input id="check" type="checkbox">Todos
+                </form>
+                <button class="form-submit" type="submit">Participar</button>
+            </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="localization">
+        <div class="container-page">
+            <p class="local-title">Como cheg<span>ar</span></p>
+        </div>
+    </section>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#score-time').countdown('2019/12/09 12:34:56', function(event) {
+                    $(this).html(event.strftime('%D dias %H:%M:%S'));
+                });
+            });
+        </script>
+
+</body>
+</html>
